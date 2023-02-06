@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tandartspraktijk Kieskeurig!</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lacinia magna. Nullam sed mollis est. Vestibulum eget ligula cursus, vehicula nulla at, tincidunt quam. Nulla mollis, nibh quis viverra efficitur, erat elit tincidunt odio, in aliquet elit nisi mollis dolor. Donec gravida aliquam malesuada. Praesent eget augue neque. Maecenas sem erat, cursus eu lacinia quis, convallis vitae arcu. Sed pharetra massa in tortor volutpat eleifend. Aliquam rutrum nulla non maximus rhoncus. Suspendisse sagittis tortor et pellentesque iaculis.
+
+    Cras nibh dolor, venenatis at odio non, viverra fermentum felis. Vivamus a lorem sed odio facilisis molestie in venenatis magna. Nullam a condimentum libero. Maecenas sit amet tempor lorem, in euismod nunc. Curabitur faucibus quam quis mollis placerat. Phasellus convallis lacus ac mi pellentesque, in commodo velit viverra. Vestibulum vulputate, justo sit amet sollicitudin tempus, magna arcu malesuada dui, in semper nunc enim vitae risus.
+    
+    Aliquam quis ante at magna malesuada auctor sed ut urna. Sed blandit lorem in eleifend interdum. Duis lectus ex, vestibulum id diam sed, imperdiet placerat neque. Aliquam tincidunt nunc turpis, eget maximus ante cursus ac. Duis sed erat vel augue fringilla congue. Aliquam sit amet justo quis est lobortis faucibus. Sed vel ullamcorper metus. Duis auctor dapibus vestibulum.
+    
+    Vestibulum efficitur congue finibus. Nullam a dignissim dolor, vitae tristique elit. Vestibulum nisl justo, tincidunt ac finibus sed, consectetur nec lorem. Nam tristique quis ante ac auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam eu mauris id magna maximus vestibulum. Sed ex sem, feugiat ac condimentum ac, porta id lacus. Curabitur id tempus eros. Maecenas vitae lectus et sem sodales vehicula. Maecenas eu rhoncus ante. Sed sit amet lectus sed nulla finibus aliquet. Phasellus nec diam congue, tincidunt nibh quis, pretium est. Sed blandit nec lacus porta sodales. Proin ut augue posuere.</p>
+<figure>
+<img
+src="https://heemskerktandartsen.nl/wp-content/uploads/2021/04/Heemskerk-tandartsen.jpg"
+alt="Tandarts" title="Tandarts"
+width="300" height="200">
+<img
+src="https://static.wixstatic.com/media/963c7d_bb059e673b044924ab0818f120b58a1b~mv2.png/v1/fill/w_560,h_460,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/963c7d_bb059e673b044924ab0818f120b58a1b~mv2.png"
+alt="Beugel" title="Beugel"
+width="300" height="200">
+<img
+src="https://thumbs.dreamstime.com/z/tandenborstel-en-tandpasta-een-buis-23855193.jpg"
+alt="Tanden Poetsen" title="Tandenpoetsen"
+width="300" height="200">
+</figure>
+<form id="Afspraakformulier" action="https://formspree.io/f/moqzjyep" method="post"></form>
+<fieldset>
+<legend><b>Persoonlijke gegevens</b></legend><br>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam"><br>
+<label for="adres">Adres:</label>
+<input type="text" id="adres" name="adres"><br>
+<label for="postcode&woonplaats">Postcode&woonplaats:</label>
+<input type="text" id="postcode&woonplaats" name="postcode&woonplaats"><br>
+<label for="geboortedatum">Geboortedatum:</label>
+<input id="geboortedatum" type="date" name="geboortedatum" max="2080-12-31"><br>
+</fieldset>
+<fieldset>
+<legend><b>Klachtomschrijving</b></legend>
+<br>
+Selecteer waarvoor u een afspraak wilt maken:
+<input type="checkbox" name="reden afspraak" value="Controle" checked>Controle
+<input type="checkbox" name="reden afspraak" value="Ontstekingen">Ontstekingen
+<input type="checkbox" name="reden afspraak" value="Orthodontist">Orthodontist
+<br>
+Upload een foto:
+<input type="file" name="document">
+</fieldset><br>
+<fieldset>
+<legend><b>Toelichting</b></legend>
+<br>
+Beschrijf uw klachten zo volledig mogelijk:<br>
+<textarea name="bericht" maxlength="3000"></textarea><br>
+Selecteer een afspraakdatum:<br>
+<input type="date" name="datum" max="2023-12-31">
+</fieldset><br>
+<input type="submit" value="Formulier Verzenden">
+</form>
+</body>
+</html>
